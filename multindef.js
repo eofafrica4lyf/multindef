@@ -6,6 +6,9 @@ function mult(arr){
         if(typeof(arr[i]) !== 'number'){
             return '....';
         }
+        if(arr[i] === 0){
+            return 0;
+        }
     }
 }
 
