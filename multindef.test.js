@@ -17,5 +17,5 @@ test('Ensure that no parameter is equal to zero',()=>{
 });
 
 test('Ensure that no parameter is equal to NaN',()=>{
-    expect(mult([NaN,23])).toBe(NaN);
+    expect(mult([NaN,23])).toBe('NaN');
 });

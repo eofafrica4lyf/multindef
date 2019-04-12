@@ -9,6 +9,9 @@ function mult(arr){
         if(arr[i] === 0){
             return 0;
         }
+        if(isNaN(arr[i])){
+            return 'NaN';
+        }
     }
 }
 
