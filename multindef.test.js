@@ -21,5 +21,9 @@ test('Ensure that no parameter is equal to NaN',()=>{
 });
 
 test('Ensure that no parameter is Infinity',()=>{
-    expect(mult([1,24,Infinity])).toBe('Inifinity');
+    expect(mult([1,24,Infinity])).toBe('Infinity');
+});
+
+test('Ensure that no parameter is -Infinity',()=>{
+    expect(mult([1,24,-Infinity])).toBe('-Infinity');
 });

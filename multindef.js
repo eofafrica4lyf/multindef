@@ -13,7 +13,7 @@ function mult(arr){
             return 'NaN';
         };
         if(arr[i] === Infinity){
-            return 'Inifinity';
+            return 'Infinity';
         };
     }
 }
