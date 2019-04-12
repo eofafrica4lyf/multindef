@@ -15,3 +15,7 @@ test('Ensure that each parameter of the array is a number',()=>{
 test('Ensure that no parameter is equal to zero',()=>{
     expect(mult([1,2,3,0,9])).toBe(0);
 });
+
+test('Ensure that no parameter is equal to NaN',()=>{
+    expect(mult([NaN,23])).toBe(NaN);
+});
