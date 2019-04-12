@@ -19,3 +19,7 @@ test('Ensure that no parameter is equal to zero',()=>{
 test('Ensure that no parameter is equal to NaN',()=>{
     expect(mult([NaN,23])).toBe('NaN');
 });
+
+test('Ensure that no parameter is Infinity',()=>{
+    expect(mult([1,24,Infinity])).toBe('Inifinity');
+});
