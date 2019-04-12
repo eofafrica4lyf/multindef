@@ -5,5 +5,5 @@ test('Empty parameter',()=>{
 });
 
 test('Ensure that a real array is passed',()=>{
-    expect(mult({})).toBe('...');
+    expect(mult( [] )).toBe('...');
 });
