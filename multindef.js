@@ -15,6 +15,9 @@ function mult(arr){
         if(arr[i] === Infinity){
             return 'Infinity';
         };
+        if(arr[i] === -Infinity){
+            return '-Infinity';
+        };
     }
 }
 
